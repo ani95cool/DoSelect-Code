@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>LEANEVENTO</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="SayItRight.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+    .larger {
+      left: 100px;
+      padding: 25px;
+    }
+
+    .register {
+      float: right;
+      left: 1500px;
+      border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+    }
+
+    .addstyle {
+      color: #F2F3F4;
+      background-color: #F2F3F4;
+    }
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+<header id="header">
+  <nav id="nav-bar">
+    <img src="imagenes\logo-blanco.png" alt="Lean logo" class="hidden-xs" /><br><br><br>
+      <h3 id="logoName">LEANEVENTO</h3>
+    <ul>
+      <li>
+        <a href="" id="active">Inicio</a>
+        <a href="">Quienes Somos</a>
+        <a href="">Blog</a>
+        <a href="">Registrate</a>
+        <a href="">Contacto</a>
+        <a href="">Iniciar Sesion</a>
+        <a href="">Comprar Boletos</a></li>
+
+      </li>
+    </ul>
+  </nav><br><br><br><br><br>
+  <div style="float: right; left: 100px; background-color: #F2F3F4;" class="larger">
+    <form class="register" id="make" method="POST" action="Individual.html">
+    <h1>Elija el tipo de usuario para registrarse</h1>
+    <button class="form__submit button button_theme_dark" onclick='individual.html'>Como individual</button>
+    <label class="addstyle">nbsp;</label>
+
+    <input type="submit" class="form__submit button button_theme_dark" value="Como Negocio o Fundacion">
+    <label class="addstyle">nbsp;</label>
+    <button class="form__submit button button_theme_dark">Como agente LEAN</button>
+  </form>
+  </div>
+</header>
+<section>
+  
+</section>
+
+
+<footer>
+ <div class="subscribe subscribe_theme">
+      <form class="subscribe__item form" id="form" method="POST">
+        <div class='register-text'><i class="fa fa-paper-plane-o"></i>    Registrese para recibir un <br/> bolitin </div>
+        <input class="form__email" id="email" type="email" name="email" placeholder="Introduce tu correo electronico" ><input class="form__submit button button_theme_dark" id="submit" type="submit" value="Suscribir">
+      </form>
+    </div>
+    <div class="social">
+        <div id="fheading"><h4 font-weight:bold"><span>LEAN EN LAS REDES SOCIALES</span></h4></div>
+        <div class="icons">
+      <a href="#"> 
+<i class="fa fa-twitter" style="font-size:24px;color:#FFC300"></i> </a>
+ <a href="#"> <i class="fa fa-facebook"  style="font-size:24px;color:#FFC300"></i></a> 
+ <a href="#"> <i class="fa fa-instagram"style="font-size:24px;color:#FFC300"></i></a> 
+    </div>
+    <div id="bottom"><p><small>Copyright @2019 All rights reserved | This web is made with <i class="fa fa-heart-o"></i> by <span style="color: #FFC300">DiazApps</span></small></p></div>
+    </div>
+
+</div>
+</footer>
+</body>
+
+</html>

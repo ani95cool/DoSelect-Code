@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>LEANEVENTO</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="SayItRight.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+    .larger {
+      left: 100px;
+      padding: 25px;
+    }
+
+    .register {
+      float: right;
+      left: 1500px;
+      border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+    }
+
+    
+
+  h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #06D85F;
+  margin: 80px 0;
+}
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border-radius: 3rem;
+  text-decoration: none;
+  cursor: pointer;
+  background-color:yellow;
+  transition: all 0.3s ease-out;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  display: inline-block;
+  background: #E5E7E9;
+  border-radius: 5px;
+  width: 400px;
+  height:300px;
+  position: relative;
+  right: 50px;
+}
+
+
+
+input, label {
+  display: block;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  float:left;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+.content  + .content{
+  margin: 0 0 0 15px;
+}
+
+.xyz {
+ position:relative;
+  top:60px;
+  right: 330px;
+  height:30px;
+}
+
+.mn {
+  position:relative;
+  top:30px;
+  right: 160px;
+  height:30px;
+}
+
+.h {
+  position: relative;
+  top: 1px;
+  float: left;
+
+}
+
+.ip {
+  position: relative;
+  top: 150px;
+}
+
+.h  + .h{
+  margin: 0 0 0 15px;
+}
+
+.ip  + .ip{
+  margin: 0 0 0 8px;
+}
+
+.di {
+  position: relative;
+  right: 330px;
+}
+
+.dip {
+  position: relative;
+  display: inline-block;
+  top: 150px;
+  right: 160px;
+}
+
+
+button {
+  border-color: yellow;
+  bottom: 300px;
+  left: 300px;
+}
+
+
+.styleit {
+  left: 100px;
+
+
+}
+
+.popup1 {
+  left: 500px;
+}
+
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+<header id="header">
+  <nav id="nav-bar">
+    <img src="imagenes\logo-blanco.png" alt="Lean logo" class="hidden-xs" /><br><br><br>
+      <h3 id="logoName">LEANEVENTO</h3>
+    <ul>
+      <li>
+        <a href="" id="active">Inicio</a>
+        <a href="">Quienes Somos</a>
+        <a href="">Blog</a>
+        <a href="">Registrate</a>
+        <a href="">Contacto</a>
+        <a href="">Iniciar Sesion</a>
+        <a href="">Comprar Boletos</a></li>
+
+      </li>
+    </ul>
+  </nav><br><br><br><br><br>
+  <div class="larger">
+    <form id="popup1">
+  <div class="popup">
+    <h2>Recuperar Su Contraseña</h2><br><br>
+    <div class="content">
+      <label>Correo</label><br>
+      <input type="text" name="user" placeholder="Correo"/>
+      
+    </div>
+    <br><br><br><br><br><br>
+      
+  <div class="styleit">
+      <button id="bu1" class="form__submit button button_theme_dark">Cerrar</button>
+      <button id="bu1" class="form__submit button button_theme_dark">Enviar</button>
+    </div>
+
+  
+
+</div>
+
+    
+</form>
+  
+</header>
+<section>
+  
+</section>
+
+
+<footer>
+    <div class="social">
+        <div id="fheading"><h4 font-weight:bold"><span>LEAN EN LAS REDES SOCIALES</span></h4></div>
+        <div class="icons">
+      <a href="#"> 
+<i class="fa fa-twitter" style="font-size:24px;color:#FFC300"></i> </a>
+ <a href="#"> <i class="fa fa-facebook"  style="font-size:24px;color:#FFC300"></i></a> 
+ <a href="#"> <i class="fa fa-instagram"style="font-size:24px;color:#FFC300"></i></a> 
+    </div>
+    <div id="bottom"><p><small>Copyright @2019 All rights reserved | This web is made with <i class="fa fa-heart-o"></i> by <span style="color: #FFC300">DiazApps</span></small></p></div>
+    </div>
+
+</div>
+</footer>
+</body>
+
+</html>
