@@ -1,0 +1,5 @@
+instructions
+Please run on Anaconda propmt as libraries like numpy and pandas will nor run on omega.
+
+sum 2c is that the data is overfitting
+sum 1c the support vectors are (1,3), (2,3) and (2, 1)

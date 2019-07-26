@@ -1,0 +1,9 @@
+Instructions:
+1. Please run this on anaconda as the libraries like numpy and pandas are preinstalled on anaconda but are not there in omega
+2. for the program Logistic regression please input a set of points or samples as I have made it easy for the TA to run it. You 
+will have to keep inputting the points till it reaches your number of samples n.
+3. For the linear regression programs you just have to input the order of the polynomial k. The outputs are from there self explonatory.
+4. In the linear regression programs we compute the value of the function p(x) using the cost and gradient descent function.
+5. In the logistic regression program I have computed the sigmoid function and the hypothesis and if the value of the sigmoid function
+is greater than 0.5 then it is W else it is M.
+6. The logistic regression program covers both 2a and 2b combined.

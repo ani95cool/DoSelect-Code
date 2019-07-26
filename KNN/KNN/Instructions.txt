@@ -1,0 +1,5 @@
+steps to execute:
+1. Please run on anaconda
+2. run python ml.py
+3. enter the input of the points in the features variable and run the code
+4. vote is the list with the prediction if M or W

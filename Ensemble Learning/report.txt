@@ -1,0 +1,12 @@
+Instructions to follow in order to run the code:
+1. Please open the zip folder and the two programs are boosting and logistic_regression for the second and first problem together.
+2. PLEASE PLEASE PLEASE make sure you have Anaconda python installed in order to run these two files as I have used some libraries like pandas, numpy. these two libraries will not work if you don't have Anaconda python installed.
+3. You will be prompted to enter the number of samples or number of iterations or number of classifiers(if needed). Once you enter those then the rest follows through smoothly
+
+Answers to both the questions:
+1. the accuracy for the algorithm applied 10, 50 and 100 times is 86.66667. This means that out of 60 samples it sampled and predicted the right value 50 number of times which means the algorithm is doing good.
+
+2. the accuracy for the algorithm applied 10, 25 and 50 times is 83.3337. This means that out of the 60 samples the algorithm is able to classify atleat 49 times which tells us that the algorithm were are applying to is almost accurate.
+
+Additional references:
+1. https://github.com/shreyans29/thesemicolon/blob/master/Ensemble%20Learning.ipynb
