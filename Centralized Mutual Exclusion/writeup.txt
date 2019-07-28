@@ -1,0 +1,27 @@
+﻿Client side:
+1. Connect to the server via a socket.
+2. Provide the server with a unique user name.
+3. Generates a random integer between 3 and 10.
+4. Upload the integer to the server
+5. Waiting for the response from the server
+6. Parsing the HTTP message and print response from the server in normal text.
+7. Tell the user about the total time spent waiting for the server's response.
+8. Go back and execute step 3 until the connection is closed by the server
+
+Server side:
+The server runs three concurrent clients and displays the name of each client in real time
+The server executes the following steps:
+
+1.Start and listen for the incoming connections.
+2. Print that a client has connected and fork a thread for the client.
+3. Put the integers received from the clients into a queue
+4. Pop the integers that were queued in the order they were received from clients.
+5. Print the current integer to the GUI and tell that it is waiting for that period
+of time.
+6. Pause all client-handling threads for the number of seconds equal to that integer.
+7. After waiting, send a message to client telling, “Server waited <#> seconds for client <name>.”
+8. Begin at step 3 until connection is closed by the client
+
+Reference:
+1. https://www.youtube.com/watch?v=icE6PR19C0Y - queues with socket
+2. https://www.youtube.com/watch?v=wkPMom77Hqk - queues
